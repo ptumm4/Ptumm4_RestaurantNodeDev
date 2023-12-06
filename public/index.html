@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathima Portfolio</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #C2D695;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    background-color: #F1F9E1;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #C2D695;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.left {
+    flex: 1;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.left img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+}
+
+.right {
+    flex: 2;
+    text-align: justify;
+}
+
+.about-info h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-info p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.education-info {
+    font-size: 16px;
+    color: #777;
+}
+
+.experience-info {
+    font-size: 16px;
+    color: #777;
+}
+
+.project-info {
+    color: #777;
+}
+
+.skills-info {
+    color: #777;
+}
+
+.contact-info {
+    color: #777;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-gap:0.1%;
+    grid-template-areas:
+    "proj1 proj1"
+    "proj2 proj3"
+}
+
+.row nav{
+    grid-area: nav;
+    text-align: center;
+    font-size: 1.5EM;
+    color: #333;
+    margin-bottom: 20px;
+    }
+
+#proj1{
+    overflow-y: auto;
+    grid-area: proj1;
+    background-color: #99B0B0;
+}
+#proj2{
+    overflow-y: auto;
+    grid-area: proj2;
+    background-color: #B5B2B0;
+}
+#proj3{
+    overflow-y: auto;
+    grid-area: proj3;
+    background-color: #8A9EA0;
+}
+
+.column{
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .row h3{
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .row p{
+        color: #777;
+        font-style: italic;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    @media  only screen and (max-width:500px) {
+        .row{
+            grid-template-areas:
+            "proj1 proj1"
+            "proj2 proj2"
+            "proj3 proj3"
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-info">
+            <div class="left">
+                <img src="https://images.unsplash.com/photo-1695251583980-a0e1e427f8d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80" alt="Tummala Prathima Chowdary">
+                <h3>Tummala Prathima Chowdary</h3>
+            </div>
+            <div class="right">
+                <p>Software quality assurance professional committed to confirming proper functionality and usability of software products before release. Plans test schedules and strategies according to project scope and delivery dates and monitors and tracks bug resolutions. Reviews software documentation to verify technical accuracy and completeness and to mitigate risks. Proven Skills in completing black, white and grey box tests. Background writing and implementing test cases, developing testing plans and identifying use cases.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p><b>Email:</b><lable style="font-style: italic;"> prathimatummala123@gmail.com</lable></p>
+            <p><b>Phone:</b><lable style="font-style: italic;"> +1 (203) 214-5321</lable></p>
+            <p><b>Location:</b><lable style="font-style: italic;"> New Haven, CT</lable></p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="education-info">
+            <h2>Education</h2>
+            <p><b>University of New Haven</b></p>
+            <p style="font-style: italic;font-size: 14px;">Master of Science - Expected in 05/2024</p>
+            <br>
+            <p><b>Gudlavalleru Engineering College</b></p>
+            <p style="font-style: italic;font-size: 14px;">B.Tech - 04/2018</p>
+            <br>
+            <p><b>Narayana Junior College</b></p>
+            <p style="font-style: italic;font-size: 14px;">Intermediate - 04/2014</p>
+            <br>
+            <p><b>Viswakavi High School</b></p>
+            <p style="font-style: italic;font-size: 14px;">SSC - 04/2012</p>
+        
+        </div>      
+    </section>
+
+    <section id="experience">
+        <div class="experience-info">
+        <h2>Experience</h2>
+        <p><b>IBM India Pvt Ltd - Senior Quality Assurance Automation Engineer</b></p>
+        <p style="font-style: italic;font-size: 14px;">Hyderabad, India • 12/2021 - 08/2022</p>
+        <br>
+        <p><b>Attra Infotech Pvt Ltd - Senior Software Engineer</b></p>
+        <p style="font-style: italic;font-size: 14px;">Bangalore, India • 08/2018 - 12/2021</p>
+        
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-info">
+            <h3>Pay My Provider, Synchrony Financial</h3>
+            <p style="font-style: italic;font-size: 14px;">Deals with UI and API for the CARECREDIT - Web Application.</p>
+        </div>
+        <br>
+        <div class="project-info">
+            <h3>NATE, Synchrony Financial</h3>
+            <p  style="font-style: italic;font-size: 14px;">CareCredit Health care application for Paying bills to providers.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-info">
+        <ul>
+            <li><b>Programming : </b><label style="font-style: italic;">C, Java, Selenium, Automation Testing</label></li>
+            <li><b>Database : </b><label style="font-style: italic;">MySql</label></li>
+        </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a>
+            <a href="https://github.com/your-github" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+            <a href="https://instagram.com/your-instagram" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

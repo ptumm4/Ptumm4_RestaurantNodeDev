@@ -1,0 +1,58 @@
+[
+    {
+      "_id": "656153b0c9735a9b117a5e63",
+      "id": 1,
+      "name": "Margh Pizza",
+      "description": "Fresh tomatoes, mozzarella",
+      "price": "$10.99"
+    },
+    {
+      "_id": "6563fa14e54d9d7e5e2be56d",
+      "id": 2,
+      "name": "Burger",
+      "description": "Delicious burger with cheese",
+      "price": "$8.99"
+    },
+    {
+      "_id": "6563fac6e54d9d7e5e2be56e",
+      "id": 3,
+      "name": "Pizza",
+      "description": "Classic Margherita pizza",
+      "price": "$12.99"
+    },
+    {
+      "_id": "6563fb50e54d9d7e5e2be56f",
+      "id": 4,
+      "name": "Pasta",
+      "description": "Spaghetti with marinara sauce",
+      "price": "$10.99"
+    },
+    {
+      "_id": "6563fb74e54d9d7e5e2be570",
+      "id": 5,
+      "name": "Salad",
+      "description": "Fresh garden salad with dressing",
+      "price": "$6.99"
+    },
+    {
+      "_id": "6563fcaae54d9d7e5e2be571",
+      "id": 6,
+      "name": "Smoothie",
+      "description": "Mixed berry smoothie",
+      "price": "$4.99"
+    },
+    {
+      "_id": "6563fcffe54d9d7e5e2be572",
+      "id": 7,
+      "name": "Tacos",
+      "description": "Authentic Mexican street tacos",
+      "price": "$9.99"
+    },
+    {
+      "_id": "6563fd22e54d9d7e5e2be573",
+      "id": 8,
+      "name": "Sushi",
+      "description": "Assorted sushi rolls with soy sauce",
+      "price": "$14.99"
+    }
+  ]
